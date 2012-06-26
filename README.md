@@ -10,6 +10,7 @@ Because the world could not have possibly gone on spinning without another respo
 ## To Do ##
 
 * Better documentation
+* Push/pull/offsets
 * Variable number of columns
 * Specific features for mobile screens
 * IE7 support (*maybe*)
