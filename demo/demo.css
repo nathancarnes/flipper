@@ -1,0 +1,296 @@
+/* ========= Settings ========= */
+/* ========= Containers ========= */
+.container {
+  min-width: 800px;
+  max-width: 1400px;
+  margin: 0 auto;
+  position: relative;
+  padding-left: 4%;
+  padding-right: 4%;
+}
+.container .container {
+  padding: 0;
+}
+.container,
+.row {
+  clear: both;
+}
+/* ========= Column Mixin ========= */
+/* ========= Column Definitions ========= */
+.col1 {
+  width: 6.333333333300001%;
+  float: left;
+  margin: 0 1%;
+}
+.col1:first-child,
+.col1.first {
+  margin-left: 0;
+  width: 7.333333333300001%;
+  clear: both;
+}
+.col1:last-child,
+.col1.last {
+  margin-right: 0;
+  width: 7.333333333300001%;
+}
+.col2 {
+  width: 14.6666666667%;
+  float: left;
+  margin: 0 1%;
+}
+.col2:first-child,
+.col2.first {
+  margin-left: 0;
+  width: 15.6666666667%;
+  clear: both;
+}
+.col2:last-child,
+.col2.last {
+  margin-right: 0;
+  width: 15.6666666667%;
+}
+.col3 {
+  width: 23%;
+  float: left;
+  margin: 0 1%;
+}
+.col3:first-child,
+.col3.first {
+  margin-left: 0;
+  width: 24%;
+  clear: both;
+}
+.col3:last-child,
+.col3.last {
+  margin-right: 0;
+  width: 24%;
+}
+.col4 {
+  width: 31.333333333299997%;
+  float: left;
+  margin: 0 1%;
+}
+.col4:first-child,
+.col4.first {
+  margin-left: 0;
+  width: 32.3333333333%;
+  clear: both;
+}
+.col4:last-child,
+.col4.last {
+  margin-right: 0;
+  width: 32.3333333333%;
+}
+.col5 {
+  width: 39.6666666667%;
+  float: left;
+  margin: 0 1%;
+}
+.col5:first-child,
+.col5.first {
+  margin-left: 0;
+  width: 40.6666666667%;
+  clear: both;
+}
+.col5:last-child,
+.col5.last {
+  margin-right: 0;
+  width: 40.6666666667%;
+}
+.col6 {
+  width: 48%;
+  float: left;
+  margin: 0 1%;
+}
+.col6:first-child,
+.col6.first {
+  margin-left: 0;
+  width: 49%;
+  clear: both;
+}
+.col6:last-child,
+.col6.last {
+  margin-right: 0;
+  width: 49%;
+}
+.col7 {
+  width: 56.3333333333%;
+  float: left;
+  margin: 0 1%;
+}
+.col7:first-child,
+.col7.first {
+  margin-left: 0;
+  width: 57.3333333333%;
+  clear: both;
+}
+.col7:last-child,
+.col7.last {
+  margin-right: 0;
+  width: 57.3333333333%;
+}
+.col8 {
+  width: 64.6666666667%;
+  float: left;
+  margin: 0 1%;
+}
+.col8:first-child,
+.col8.first {
+  margin-left: 0;
+  width: 65.6666666667%;
+  clear: both;
+}
+.col8:last-child,
+.col8.last {
+  margin-right: 0;
+  width: 65.6666666667%;
+}
+.col9 {
+  width: 73%;
+  float: left;
+  margin: 0 1%;
+}
+.col9:first-child,
+.col9.first {
+  margin-left: 0;
+  width: 74%;
+  clear: both;
+}
+.col9:last-child,
+.col9.last {
+  margin-right: 0;
+  width: 74%;
+}
+.col10 {
+  width: 81.3333333333%;
+  float: left;
+  margin: 0 1%;
+}
+.col10:first-child,
+.col10.first {
+  margin-left: 0;
+  width: 82.3333333333%;
+  clear: both;
+}
+.col10:last-child,
+.col10.last {
+  margin-right: 0;
+  width: 82.3333333333%;
+}
+.col11 {
+  width: 89.6666666667%;
+  float: left;
+  margin: 0 1%;
+}
+.col11:first-child,
+.col11.first {
+  margin-left: 0;
+  width: 90.6666666667%;
+  clear: both;
+}
+.col11:last-child,
+.col11.last {
+  margin-right: 0;
+  width: 90.6666666667%;
+}
+.col12 {
+  width: 100%;
+  margin: 0;
+}
+/* ========= RTL Support ========= */
+[dir='rtl'] .col1,
+[dir='rtl'] .col2,
+[dir='rtl'] .col3,
+[dir='rtl'] .col4,
+[dir='rtl'] .col5,
+[dir='rtl'] .col6,
+[dir='rtl'] .col7,
+[dir='rtl'] .col8,
+[dir='rtl'] .col9,
+[dir='rtl'] .col10,
+[dir='rtl'] .col11 {
+  float: right;
+}
+[dir='rtl'] .col1:first-child,
+[dir='rtl'] .col2:first-child,
+[dir='rtl'] .col3:first-child,
+[dir='rtl'] .col4:first-child,
+[dir='rtl'] .col5:first-child,
+[dir='rtl'] .col6:first-child,
+[dir='rtl'] .col7:first-child,
+[dir='rtl'] .col8:first-child,
+[dir='rtl'] .col9:first-child,
+[dir='rtl'] .col10:first-child,
+[dir='rtl'] .col11:first-child,
+[dir='rtl'] .col1.first,
+[dir='rtl'] .col2.first,
+[dir='rtl'] .col3.first,
+[dir='rtl'] .col4.first,
+[dir='rtl'] .col5.first,
+[dir='rtl'] .col6.first,
+[dir='rtl'] .col7.first,
+[dir='rtl'] .col8.first,
+[dir='rtl'] .col9.first,
+[dir='rtl'] .col10.first,
+[dir='rtl'] .col11.first {
+  margin-right: 0;
+  margin-left: 1%;
+}
+[dir='rtl'] .col1:last-child,
+[dir='rtl'] .col2:last-child,
+[dir='rtl'] .col3:last-child,
+[dir='rtl'] .col4:last-child,
+[dir='rtl'] .col5:last-child,
+[dir='rtl'] .col6:last-child,
+[dir='rtl'] .col7:last-child,
+[dir='rtl'] .col8:last-child,
+[dir='rtl'] .col9:last-child,
+[dir='rtl'] .col10:last-child,
+[dir='rtl'] .col11:last-child,
+[dir='rtl'] .col1.last,
+[dir='rtl'] .col2.last,
+[dir='rtl'] .col3.last,
+[dir='rtl'] .col4.last,
+[dir='rtl'] .col5.last,
+[dir='rtl'] .col6.last,
+[dir='rtl'] .col7.last,
+[dir='rtl'] .col8.last,
+[dir='rtl'] .col9.last,
+[dir='rtl'] .col10.last,
+[dir='rtl'] .col11.last {
+  margin-left: 0;
+  margin-right: 1%;
+}
+body {
+  background: #fafafa;
+  color: #444;
+  font-family: "Share", Arial, Sans-serif;
+  text-shadow: 0 1px 0 #fff;
+  -webkit-font-smoothing: antialias;
+}
+h1 {
+  color: #3f8cdb;
+  font: normal 4em "Bangers";
+  margin-bottom: 0;
+  text-align: center;
+}
+h3 {
+  color: #db963f;
+  font-size: 1.5em;
+  margin: 0;
+  padding: 60px 0 5px;
+}
+.row div {
+  background: #eee;
+  border-radius: 3px;
+  margin-bottom: 10px;
+  padding: 5px 0;
+  text-align: center;
+}
+.row div .row div {
+  background: #ddd;
+  margin-bottom: 0;
+}
+.row div .row div .row div {
+  background: #ccc;
+}
